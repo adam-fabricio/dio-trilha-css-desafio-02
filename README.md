@@ -4,9 +4,9 @@ Este repositório contém quatro aulas práticas sobre posicionamento de element
 
 ## Estrutura das Aulas
 
-- **classroom-1:** Posicionamento e Exibição de Elementos com CSS
-- **classroom-2:** Trabalhando com Flexbox no CSS
-- **classroom-3:** Desafio - Clonando a Página do YouTube com CSS ([Figma](https://www.figma.com/file/lrRWUZPKnqMDZrSDJmZxUS/Desafio-de-Flexbox---DIO?node-id=0%3A1))
-- **classroom-4:** Desafio - Construindo um layout responsivo para o site Discord ([Figma](https://www.figma.com/file/NRBYrG5d4DSzObv7dpTqoM/Desafio-Responsividade---DIO))
+- **Aula-1:** Posicionamento e Exibição de Elementos com CSS
+- **Aula-2:** Trabalhando com Flexbox no CSS
+- **Aula3:** Desafio - Clonando a Página do YouTube com CSS ([Figma](https://www.figma.com/file/lrRWUZPKnqMDZrSDJmZxUS/Desafio-de-Flexbox---DIO?node-id=0%3A1))
+- **Desafio-2:** Desafio - Construindo um layout responsivo para o site Discord ([Figma](https://www.figma.com/file/NRBYrG5d4DSzObv7dpTqoM/Desafio-Responsividade---DIO))
 
 Cada pasta contém arquivos HTML, CSS e recursos necessários para os exercícios e desafios.
