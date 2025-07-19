@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Posicionamento e Exibição de Elementos com CSS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="header">
+    <h1>Posicionamento e Exibição de Elementos com CSS</h1>
+  </header>
+  <main class="main">
+    <section>
+      <h1>Propriedade Display</h1>
+      <p>A propriedade display vai determinar como essas caixinhas retangulares irão se comportar na hora de serem exibidas na tela</p>
+      <ul>
+        <li>border-width</li>
+        <li>border-style</li>
+        <li>border-color</li>
+      </ul>
+      <h2>Exemplos:</h2>
+
+      <code>display: block;</code>
+      <br><br>
+      <div class="exemplo">Exemplo bloco 01</div>
+      <div class="exemplo">Exemplo bloco 02</div> 
+
+      <br><br>
+      <code>display: inline;</code>
+      <br><br>
+      <span class="exemplo inline">Exemplo Inline 1</span>
+      <span class="exemplo inline">Exemplo Inline 2  </span>
+      <em class="exemplo inline">Exemplo Inline 3</em>
+      <b class="exemplo inline">Exemplo Inline 4</b>
+      <p class="exemplo" style="display: inline;">Exemplo Inline 5</p>
+
+      <br><br>
+      <code>display: inline-block;</code>
+      <br><br>
+      <span class="exemplo inline-block">Exemplo Inline 1</span>
+      <span class="exemplo inline-block">Exemplo Inline 2  </span>
+      <em class="exemplo inline-block">Exemplo Inline 3</em>
+      <b class="exemplo inline-block">Exemplo Inline 4</b>
+      <p class="exemplo inline-block"> Exemplo Inline 5</p>
+
+      <br><br><br>
+
+      <h3>Menu nav</h3>
+      <nav class="menu">
+        <ul>
+          <li><a href="#" class="item">Menu Link 1</a></li>
+          <li><a href="#" class="item">Menu Link 2</a></li>
+          <li><a href="#" class="item esconder-elemento">Menu Link 3</a></li>
+        </ul>
+      </nav>
+
+      <br><br>
+      <code>display: none;</code>
+      <br><br>
+
+      <div class="exemplo esconder-elemento">
+        <p>Exemplo 01</p>
+        <span>oi</span>
+        <span>trilha CSS</span>
+      </div>
+
+      <br><br>
+      <code>display: none vs visibility hidden;</code>
+      <br><br>
+
+      <div>
+        <span id="item-01" class="exemplo">item 01</span>
+        <span id="item-02" class="exemplo">item 02</span>
+        <span id="item-03" class="exemplo">item 03</span>
+      </div>
+
+      <div class="container">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/768px-Instagram.png" alt="" id="img-01">
+        <span id="item-04" class="exemplo">Exemplo</span>
+        <span id="item-05" class="exemplo">Exemplo</span>
+      </div>
+
+    
+    </section>
+  </main>
+</body>
+</html>

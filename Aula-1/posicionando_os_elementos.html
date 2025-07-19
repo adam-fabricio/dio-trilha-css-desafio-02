@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Posicionamento de Elementos com CSS</title>
+  <style>
+    .inline{
+      display: inline-block;
+    } 
+    .exemplo{
+      width: 100px;
+      height: 100px;
+      margin: 10px;
+      padding: 10px;
+      border-radius: 4px;
+    }
+
+    .ex1{
+      background-color: orange;
+    }
+    
+    .ex2{
+      background-color: orchid;
+    }
+    
+    .ex3{
+      background-color: greenyellow;
+
+    }
+    
+    .ex4{
+      background-color: lightblue;
+
+    }
+    
+    .ex5{
+      background-color: lightpink;
+
+    }
+    
+    .ex6{
+      background-color: blueviolet;
+
+    }
+
+    #elemento-8{
+      position: relative;
+      top: 20px;
+      left: 30px;
+    }
+    #elemento-11{
+      position: relative;
+      top: 25px;
+      right: 32px;
+      top: 10px;
+    }
+
+    #elemento-14{
+      position: absolute;
+      opacity: .5;
+      right: 10px;
+      bottom: 25px;
+    }
+
+    #elemento-16{
+      position:absolute;
+      left: 32px;
+      top: 22px;
+    }
+
+    .elemento-pai{
+      position: relative;
+    }
+
+    #elemento-21{
+      position: fixed;
+      bottom: 0px;
+      right: 0px;
+    }
+
+    #elemento-25{
+      position: sticky;
+      top: 50 px;
+    }
+    
+  </style>
+</head>
+<body>
+  <header class="header">
+    <h1>Posicionando os elementos em tela</h1>
+  </header>
+  <p>A propriedade  position vai nos ajudar a manipular a localização/posição do elemento na sua página.</p>
+  <ul>
+    <li><code>position: static;</code></li>
+    <li><code>position: relative;</code></li>
+    <li><code>position: absolute;</code></li>
+    <li><code>position: fixed;</code></li>
+    <li><code>position: stick;</code></li>
+  </ul>
+
+  <h3>Exemplo: <i>position: static;</i></h3>
+
+  <div id="elemento-1" class="ex1 exemplo inline">Elemento 1</div>
+  <div id="elemento-2" class="ex2 exemplo inline">Elemento 2</div>
+  <div id="elemento-3" class="ex3 exemplo inline">Elemento 3</div>
+ 
+  <hr>
+
+  <div id="elemento-4" class="ex4 exemplo">Elemento A</div>
+  <div id="elemento-5" class="ex5 exemplo">Elemento B</div>
+  <div id="elemento-6" class="ex6 exemplo">Elemento C </div>
+
+  <hr size="10px" color="black">
+  <div id="elemento-12" class="ex6 exemplo">Elemento C </div>
+
+  <h3>Exemplo: <i>position: relative;</i></h3>
+
+  <div id="elemento-7" class="ex1 exemplo inline">Elemento 1</div>
+  <div id="elemento-8" class="ex2 exemplo inline">Elemento 2</div>
+  <div id="elemento-9" class="ex3 exemplo inline">Elemento 3</div>
+
+  <hr>
+
+  <div id="elemento-10" class="ex4 exemplo">Elemento A</div>
+  <div id="elemento-11" class="ex5 exemplo">Elemento B</div>
+  <div id="elemento-12" class="ex6 exemplo">Elemento A</div>
+  
+  <hr size="10px" color="black">
+
+  <h3>Exemplo: <i>position: absolute;</i></h3>
+  <div class="elemento-pai">
+    <div id="elemento-13" class="ex1 exemplo inline">Elemento 1</div>
+    <div id="elemento-14" class="ex2 exemplo inline">Elemento 2</div>
+    <div id="elemento-15" class="ex3 exemplo inline">Elemento 3</div>
+
+    <hr>
+
+    <div id="elemento-16" class="ex4 exemplo">Elemento A</div>
+    <div id="elemento-17" class="ex5 exemplo">Elemento B</div>
+    <div id="elemento-18" class="ex6 exemplo">Elemento C </div>
+  </div>
+
+  <h3>Exemplo: <i>position: fixed;</i></h3>
+  <div class="elemento-pai">
+    <div id="elemento-19" class="ex1 exemplo inline">Elemento 1</div>
+    <div id="elemento-20" class="ex2 exemplo inline">Elemento 2</div>
+    <div id="elemento-21" class="ex3 exemplo inline">Elemento 3</div>
+
+    <hr>
+
+    <div id="elemento-22" class="ex4 exemplo">Elemento A</div>
+    <div id="elemento-23" class="ex5 exemplo">Elemento B</div>
+    <div id="elemento-24" class="ex6 exemplo">Elemento C </div>
+  </div>
+
+   <h3>Exemplo: <i>position: fixed;</i></h3>
+  <div class="elemento-pai">
+    <div id="elemento-25" class="ex1 exemplo inline">Elemento 1</div>
+    <div id="elemento-26" class="ex2 exemplo inline">Elemento 2</div>
+    <div id="elemento-27" class="ex3 exemplo inline">Elemento 3</div>
+
+    <hr>
+
+    <div id="elemento-28" class="ex4 exemplo">Elemento A</div>
+    <div id="elemento-29" class="ex5 exemplo">Elemento B</div>
+    <div id="elemento-30" class="ex6 exemplo">Elemento C </div>
+  </div>
+</body>
+</html>
