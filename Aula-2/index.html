@@ -1,13 +1,156 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Trabalhando com Flexbox no CSS</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Trabalhando com Flexbox no CSS</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Trabalhando com Flexbox no CSS</h1>
-    <!-- Conteúdo da aula 2 -->
+  <h1>Trabalhando com Flexbox no CSS</h1>
+  <br><br>
+  <h2>Entendendo os Conceitos de Flexbox</h2>
+  <!-- Conteúdo da aula 2 -->
+   <h3><i>display: flex;</i></h3>
+  <div class="container flex">
+    <div class="item">item 01</div>
+    <div class="item">item 02</div>
+    <div class="item">item 03</div>
+    <div class="item">item 04</div>
+    <div class="item">item 05</div>
+    <div class="item">item 06</div>
+    <div class="item">item 07</div>
+    <div class="item">item 08</div>
+  </div>
+  <div class="container flex">
+    <div class="item">item 01</div>
+    <div class="item">item 02</div>
+    <div class="item">item 03</div>
+    <div class="item">item 04</div>
+    <div class="item">item 05</div>
+    <div class="item">item 06</div>
+    <div class="item">item 07</div>
+    <div class="item">item 08</div>
+  </div>
+  <hr>
+  <h3><i>display: inline-flex;</i></h3>
+  <div class="container inline-flex">
+    <div class="item">item 01</div>
+    <div class="item">item 02</div>
+    <div class="item">item 03</div>
+    <div class="item">item 04</div>
+    <div class="item">item 05</div>
+  </div>
+  <div class="container inline-flex">
+    <div class="item">item 01</div>
+    <div class="item">item 02</div>
+    <div class="item">item 03</div>
+    <div class="item">item 04</div>
+    <div class="item">item 05</div>
+  </div>
+
+  <br><br><br>
+  <hr size="5px" color="black">
+  <br>
+
+  <h2>Os Eixos Do Flexbox</h2>
+  <h3><i>flex-direction: row;</i></h3>
+  <div class="container flex", id="container-01">
+    <div class="item">item 01</div>
+    <div class="item">item 02</div>
+    <div class="item">item 03</div>
+    <div class="item">item 04</div>
+    <div class="item">item 05</div>
+  </div>
+  <h3><i>flex-direction: column</i></h3>
+  <div class="container flex", id="container-02">
+    <div class="item">item 01</div>
+    <div class="item">item 02</div>
+    <div class="item">item 03</div>
+    <div class="item">item 04</div>
+    <div class="item">item 05</div>
+  </div>
+  <h3><i>flex-direction: row-reverse;</i></h3>
+  <div class="container flex", id="container-03">
+    <div class="item">item 01</div>
+    <div class="item">item 02</div>
+    <div class="item">item 03</div>
+    <div class="item">item 04</div>
+    <div class="item">item 05</div>
+  </div>
+  <h3><i>flex-direction: column-reverse</i></h3>
+  <div class="container flex", id="container-04">
+    <div class="item">item 01</div>
+    <div class="item">item 02</div>
+    <div class="item">item 03</div>
+    <div class="item">item 04</div>
+    <div class="item">item 05</div>
+  </div>
+
+
+  <br><br><br>
+  <hr size="5px" color="black">
+  <br>
+  <h3>Quebra de linhas e colunas com Flex-Wrap</h3>
+  <h3><i>flex-wrap: wrap;</i></h3>
+  <div class="container inline-flex", id="container-05">
+    <div class="item">item 01</div>
+    <div class="item">item 02</div>
+    <div class="item">item 03</div>
+    <div class="item">item 04</div>
+    <div class="item">item 05</div>
+    <div class="item">item 06</div>
+    <div class="item">item 07</div>
+    <div class="item">item 08</div>
+    <div class="item">item 09</div>
+    <div class="item">item 10</div>
+  </div>
+  <h3><i>flex-wrap: wrap-reverse;</i></h3>
+  <div class="container inline-flex", id="container-06">
+    <div class="item">item 01</div>
+    <div class="item">item 02</div>
+    <div class="item">item 03</div>
+    <div class="item">item 04</div>
+    <div class="item">item 05</div>
+    <div class="item">item 06</div>
+    <div class="item">item 07</div>
+    <div class="item">item 08</div>
+    <div class="item">item 09</div>
+    <div class="item">item 10</div>
+  </div>
+  <h3><i>flex-wrap: wrap;</i></h3>
+  <div class="container flex", id="container-07">
+    <div class="item">item 01</div>
+    <div class="item">item 02</div>
+    <div class="item">item 03</div>
+    <div class="item">item 04</div>
+    <div class="item">item 05</div>
+    <div class="item">item 06</div>
+    <div class="item">item 07</div>
+    <div class="item">item 08</div>
+    <div class="item">item 09</div>
+    <div class="item">item 10</div>
+  </div>
+  <h3><i>flex-wrap: wrap-reverse;</i></h3>
+  <div class="container flex", id="container-08">
+    <div class="item">item 01</div>
+    <div class="item">item 02</div>
+    <div class="item">item 03</div>
+    <div class="item">item 04</div>
+    <div class="item">item 05</div>
+    <div class="item">item 06</div>
+    <div class="item">item 07</div>
+    <div class="item">item 08</div>
+    <div class="item">item 09</div>
+    <div class="item">item 10</div>
+  </div>
+  
+  <br><br><br>
+  <hr size="5px" color="black">
+  <h3><i><code>flex-flow: {direction} {wrap}</code></i></h3>
+  <h3><i>Propriedade abreviada onde posso passar direto o direction e o wrap</i></h3>
+  <hr size="5px" color="black">
+  <br>
+  
 </body>
 </html>

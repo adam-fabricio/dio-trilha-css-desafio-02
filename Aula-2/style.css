@@ -5,3 +5,67 @@ body {
     margin: 0;
     padding: 0;
 }
+
+.container{
+    background-color: palegreen;
+    padding: 20px;
+}
+
+.item{
+    background-color: orange;
+    margin: 10px;
+}
+
+.flex{
+    display: flex;
+}
+
+.inline-flex{
+    display: inline-flex;
+}
+
+#container-01{
+    flex-direction: row;
+}
+
+#container-02{
+    flex-direction: column;
+}
+
+#container-03{
+    flex-direction: row-reverse;
+}
+
+#container-04{
+    flex-direction: column-reverse;
+}
+
+#container-05{
+    padding: 20px;
+    margin: 20px;
+    width: 300px;
+    
+    flex-wrap: wrap;
+}
+#container-06{
+    padding: 20px;
+    margin: 10px;
+    width: 300px;
+
+    flex-wrap: wrap-reverse;
+}
+#container-07{
+    padding: 20px;
+    margin: 20px;
+    height: 300px;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+#container-08{
+    padding: 20px;
+    margin: 20px;
+    height: 300px;
+    flex-wrap: wrap-reverse;
+    flex-direction: column;
+}
